@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SneakStep</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="./assets/header/logo.png" alt="" />
+      </a>
+      <i class="fa-solid fa-bars"></i>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="utilities">
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <i class="fa-solid fa-bag-shopping" id="shop-icon"></i>
+      </div>
+      <div class="search-container">
+        <input
+          type="search"
+          name=""
+          id="search-input"
+          placeholder="Search Jordans"
+        />
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-info-container">
+        <h1>Step into your sneak</h1>
+        <p>
+          Discover a world of footwear fashion at our online shoe emporium. From
+          trendy sneakers to elegant smart shoes, we offer a diverse collection
+          to suit your style.
+        </p>
+        <p>
+          Explore the latest designs and step into the perfect pair that
+          complements your unique taste. With a commitment to quality and
+          comfort, we're your go-to destination for finding the ideal shoes for
+          every occasion.
+        </p>
+        <a href="#products" class="btn"
+          >Shop Now <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+      <div class="home-shoe-container">
+        <img src="./assets/home/home-shoe.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img-container">
+        <img src="./assets/about/neymar.png" alt="" />
+      </div>
+      <div class="about-text-container">
+        <h2>About Us</h2>
+        <p>
+          SneakStep is a <span class="bold">leading</span> online destination
+          for shoe enthusiasts, offering a wide range of footwear from renowned
+          brands, including <span class="bold">Nike, Adidas</span>, and many
+          more. As a one-stop shop for sneaker aficionados, SneakStep provides a
+          diverse collection of shoes that cater to various tastes and
+          preferences, ensuring that customers can find the perfect pair for any
+          occasion or style.
+        </p>
+        <p></p>
+        <p>
+          What sets SneakStep apart is our commitment to offering not just shoes
+          but also unforgettable experiences. In an exciting development, we are
+          proud to announce an exclusive partnership with
+          <span class="bold">Neymar Jr</span>, the iconic Brazilian football
+          superstar. This groundbreaking collaboration has given rise to a
+          unique line of football shoes that reflect Neymar Jr's distinctive
+          playing style and personality.
+        </p>
+        <p></p>
+        <p>
+          These exclusive football shoes, born from our partnership with Neymar
+          Jr, are a testament to our dedication to merging style and
+          functionality. They offer both fans and athletes the opportunity to
+          experience a piece of his
+          <span class="bold">world-class</span> performance on the field. At
+          SneakStep, we believe in providing footwear that goes beyond the
+          ordinary, and our partnership with Neymar Jr is a testament to this
+          commitment.
+        </p>
+        <a href="#" class="btn"
+          >Find Out More <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+      <div class="brands-container">
+        <img src="./assets/brands/nike.png" alt="" class="brand" />
+        <img src="./assets/brands/adidas.png" alt="" class="brand" />
+        <img src="./assets/brands/converse.png" alt="" class="brand" />
+        <img src="assets/brands/puma.png" alt="" class="brand" />
+        <img src="./assets/brands/under-armour.png" alt="" class="brand" />
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Trending Products</h2>
+      <div class="products-container">
+        <div class="product-content-container nike">
+          <img src="./assets/products/shoe1.png" alt="" />
+          <h3>NIKE</h3>
+          <p>Air Jordan 1 OG University Blue</p>
+          <p class="price bold">£254</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container nike">
+          <img src="./assets/products/shoe2.png" alt="" />
+          <h3>NIKE</h3>
+          <p>Air Force 1 '07</p>
+          <p class="price bold">£110</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container nike">
+          <img src="./assets/products/shoe3.png" alt="" />
+          <h3>NIKE</h3>
+          <p>Travis Scott x Air Jordan 1 Retro Low</p>
+          <p class="price bold">£1,229</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container nike">
+          <img src="./assets/products/shoe4.png" alt="" />
+          <h3>NIKE</h3>
+          <p>Dunk Low Retro White Black Panda</p>
+          <p class="price bold">£93</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container adidas">
+          <img src="./assets/products/shoe5.png" alt="" />
+          <h3>ADIDAS</h3>
+          <p>Ultraboost Light Running Shoes</p>
+          <p class="price bold">£130</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container adidas">
+          <img src="./assets/products/shoe6.png" alt="" />
+          <h3>ADIDAS</h3>
+          <p>Yeezy Boost 350 V2 'Slate'</p>
+          <p class="price bold">£239.99</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star-half-stroke gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container converse">
+          <img src="./assets/products/shoe7.png" alt="" />
+          <h3>CONVERSE</h3>
+          <p>Chuck Taylor All-Star 70 Hi</p>
+          <p class="price bold">£152</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star-half-stroke gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container neymar">
+          <img src="./assets/products/shoe8.png" alt="" />
+          <h3>NEYMAR X MERCURIAL</h3>
+          <p>Nike Mercurial Vapor XI Neymar JR</p>
+          <p class="price bold">£180</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container puma">
+          <img src="./assets/products/shoe9.png" alt="" />
+          <h3>PUMA</h3>
+          <p>Fenty x Wmns Suede Creeper OG 'Black'</p>
+          <p class="price bold">£155</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star-half-stroke gold"></i>
+              <i class="fa-regular fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container puma">
+          <img src="./assets/products/shoe10.png" alt="" />
+          <h3>PUMA</h3>
+          <p>Mens Fusion Evo Golf Shoes</p>
+          <p class="price bold">£67.99</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container underarmour">
+          <img src="assets/products/shoe11.png" alt="" />
+          <h3>UNDER ARMOUR</h3>
+          <p>UA Project Rock BSR3 UFC '23</p>
+          <p class="price bold">£80.99</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-content-container underarmour">
+          <img src="assets/products/shoe12.png" alt="" />
+          <h3>UNDER ARMOUR</h3>
+          <p>Curry 2 Retro Basketball Shoes 'Steel/Sunbleached Black'</p>
+          <p class="price bold">£121.99</p>
+          <div class="size-dropdown">
+            <select>
+              <option value="" disabled selected>Select Size:</option>
+              <option value="6">UK 6</option>
+              <option value="6.5">UK 6.5</option>
+              <option value="7">UK 7</option>
+              <option value="7.5">UK 7.5</option>
+              <option value="8">UK 8</option>
+              <option value="8.5">UK 8.5</option>
+              <option value="9">UK 9</option>
+              <option value="9.5">UK 9.5</option>
+              <option value="10">UK 10</option>
+            </select>
+          </div>
+          <div class="product-add-container">
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+            <a class="shop-btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h2>Famous Reviews</h2>
+      <div class="reviews-container">
+        <div class="review-container">
+          <div class="profile-container">
+            <img src="./assets/reviews/mudryk.png" alt="" />
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+          </div>
+          <div class="summary-container">
+            <span class="bold">Mykhailo Mudryk</span> <span> reviewed </span>
+            <span class="bold"> Neymar X Mercurial</span>
+          </div>
+          <div class="review-text-container">
+            <p>
+              "I recently purchased the Neymar x Mercurial shoes from SneakStep,
+              and I must say I'm beyond impressed. The sleek design and comfort
+              are top-notch."
+            </p>
+            <p>
+              "Wearing these on the football field, I felt like a true pro.
+              SneakStep made the shopping process a breeze, and their commitment
+              to quality is evident. I'll be coming back for more!"
+            </p>
+          </div>
+        </div>
+
+        <div class="review-container">
+          <div class="profile-container">
+            <img src="./assets/reviews/saking.png" alt="" />
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+          </div>
+          <div class="summary-container">
+            <span class="bold">Sakina Karchaoui</span> <span> reviewed </span>
+            <span class="bold"> Ultraboost Light</span>
+          </div>
+          <div class="review-text-container">
+            <p>
+              "I've been a sneakerhead for years, and the Ultraboost Light shoes
+              from SneakStep have quickly become my favorites. They are
+              incredibly lightweight and provide unparalleled comfort."
+            </p>
+            <p>
+              "What sets SneakStep apart is their extensive collection and
+              reliability. It's my go-to for finding the latest kicks. A
+              must-visit for sneaker enthusiasts!"
+            </p>
+          </div>
+        </div>
+
+        <div class="review-container">
+          <div class="profile-container">
+            <img src="./assets/reviews/adin.png" alt="" />
+            <div class="product-stars-container">
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-solid fa-star gold"></i>
+              <i class="fa-regular fa-star-half-stroke gold"></i>
+            </div>
+          </div>
+          <div class="summary-container">
+            <span class="bold">Adin Ross</span> <span> reviewed </span>
+            <span class="bold"> Fusion Evo Golf Shoes</span>
+          </div>
+          <div class="review-text-container">
+            <p>
+              "As a golf enthusiast, I'm always looking for the perfect
+              footwear, and I found it with the Fusion Evo Golf Shoes from
+              SneakStep. These shoes offer the right balance of style and
+              performance on the golf course."
+            </p>
+            <p>
+              "SneakStep's website is user-friendly, and their prompt delivery
+              is a testament to their commitment to customers. I'm thoroughly
+              impressed!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>FREQUENTLY ASKED QUESTIONS</h2>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>What is Sneak Step?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            Sneak Step is a leading footwear company specializing in stylish and
+            comfortable sneakers for both men and women.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>How can I place an order?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            To place an order, simply browse our website, select the sneakers
+            you like, choose your size, and add them to your cart. Then, proceed
+            to checkout and follow the steps to complete your order.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>What payment methods do you accept?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            Sneak Step accepts a variety of payment methods, including credit
+            and debit cards, PayPal and also crypto currency exchange.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>Do you offer international shipping?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            Yes, Sneak Step offers international shipping. We ship to various
+            countries around the world. Shipping fees and delivery times may
+            vary depending on your location.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>What is your return policy?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            Our return policy allows you to return sneakers within 30 days of
+            purchase. They must be in unworn and original condition. Please
+            visit our Returns page for more details.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>How can I track my order?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            You can track your order by logging into your Sneak Step account and
+            visiting the Order Tracking page. You'll find real-time updates on
+            your order's status.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>Are your sneakers available in physical stores?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            No, unfortunately as of this moment, SneakStep is an online only
+            store. However, look out in the future if there are any near you.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>How long does delivery take?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            We have the option of premium express delivery which aims to deliver
+            purchases within 1-3 days, based on location. There is also free
+            delivery for orders above £40 which takes at most 7 working days to
+            deliver.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <div class="question-container">
+          <h3>How do I contact customer support?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="answer-container">
+          <p>
+            You can reach our customer support team by visiting our Contact Us
+            page. We offer various contact methods, including email and phone
+            support.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-container">
+      <section class="footer">
+        <div class="footer-container">
+          <h2>SneakStep</h2>
+          <p>Generic lorem ipsum text</p>
+        </div>
+
+        <div class="footer-container">
+          <h2>Support</h2>
+          <div class="support">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h2>Contact</h2>
+          <div class="contact">
+            <p>
+              <i class="fa-solid fa-location-dot"></i>One Apple Park Way,
+              Cupertino, CA 95014, United States
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+1 408-996-1010</p>
+            <p><i class="fa-solid fa-envelope"></i>sneakstep@apparel.com</p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h2>Follow Us!</h2>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
